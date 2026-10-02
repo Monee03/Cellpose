@@ -71,3 +71,4 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 dataset_cellvitpp/
+docs/figures/web-viewer.mov
