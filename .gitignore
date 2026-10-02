@@ -49,3 +49,25 @@ cufile.log
 # annotation tool
 /annotation_tool/application
 /annotation_tool/Dockerfile
+# conda虚拟环境
+myenv/
+
+# 模型权重
+checkpoints/
+
+# 日志&输出结果
+logs/
+logs_local/
+results_cellvit/
+results_wholemap/
+
+# 测试数据集
+test_database/
+
+# 临时文件
+*.log
+*.bak
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+dataset_cellvitpp/

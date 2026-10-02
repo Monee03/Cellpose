@@ -193,15 +193,15 @@ class ExperimentCellVitPanNuke(BaseExperiment):
             train_dataset,
             batch_size=self.run_conf["training"]["batch_size"],
             sampler=training_sampler,
-            num_workers=16,
+            num_workers=4,
             pin_memory=False,
             worker_init_fn=self.seed_worker,
         )
 
         val_dataloader = DataLoader(
             val_dataset,
-            batch_size=128,
-            num_workers=16,
+            batch_size=8,
+            num_workers=4,
             pin_memory=True,
             worker_init_fn=self.seed_worker,
         )

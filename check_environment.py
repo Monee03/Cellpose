@@ -140,10 +140,10 @@ except Exception as e:
 try:
     log_message("Checking CuCIM availability...")
     from cucim import CuImage
-    from cellvit.utils.download_example_files import check_test_database
+    #from cellvit.utils.download_example_files import check_test_database
 
     log_message("Downloading example files...")
-    check_test_database()
+    #check_test_database()
     log_message("Opening example Image with CuCIM")
     image = CuImage("./test_database/x40_svs/JP2K-33003-2.svs")
     image.size()

@@ -88,5 +88,5 @@ dependencies:
       - ujson==5.8.0
       - wandb==0.15.4
       - wsidicom==0.20.4
-      - wsidicomizer==0.13.2
+      - wsidicomizer
       - xgboost==2.1.1
